@@ -1,17 +1,83 @@
-# React + TypeScript + Vite
+# ElevenLabs Sign-Up Frontend Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend UI clone of the ElevenLabs sign-up page built with React, TypeScript, and Vite. This project replicates the design and layout of the official ElevenLabs signup interface using modern web technologies.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **UI Clone**: Faithful recreation of the ElevenLabs signup page design
+- **Responsive Design**: Mobile-friendly layout using Tailwind CSS
+- **Form Components**: Email and password input fields with Google signup button
+- **Fast Development**: Built with Vite for lightning-fast HMR (Hot Module Replacement)
+- **Type-Safe**: Full TypeScript support for robust development
+- **Code Quality**: ESLint configuration for consistent code standards
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19**: Modern React with latest features
+- **TypeScript**: Type-safe JavaScript development
+- **Vite 7**: Ultra-fast build tool and development server
+- **Tailwind CSS 4**: Utility-first CSS framework
+- **ESLint**: Code quality and consistency
 
-## Expanding the ESLint configuration
+## Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/TauqueerJafri/elevenlab-signup.git
+cd elevenlabs-signin
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+The application will open at `http://localhost:5173` with hot module replacement enabled.
+
+## Available Scripts
+
+- `npm run dev` - Start development server with HMR
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint to check code quality
+
+## Project Structure
+
+```
+elevenlabs-signin/
+├── src/
+│   ├── App.tsx          # Main sign-up form component
+│   ├── App.css          # Component styles
+│   ├── main.tsx         # Application entry point
+│   ├── index.css        # Global styles
+│   └── assets/          # Static assets
+├── public/              # Static files
+├── package.json         # Project dependencies
+├── tsconfig.json        # TypeScript configuration
+├── vite.config.ts       # Vite configuration
+└── eslint.config.js     # ESLint configuration
+```
+
+## Development
+
+This project uses:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) with Babel for Fast Refresh
+- Tailwind CSS via `@tailwindcss/vite` plugin for optimized CSS
+
+## ESLint Configuration
+
+Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
