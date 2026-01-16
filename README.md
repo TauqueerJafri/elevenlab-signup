@@ -2,6 +2,10 @@
 
 A frontend UI clone of the ElevenLabs sign-up page built with React, TypeScript, and Vite. This project replicates the design and layout of the official ElevenLabs signup interface using modern web technologies.
 
+## Demo
+
+![ElevenLabs Sign-Up Clone](./public/elevenlabs.png)
+
 ## Features
 
 - **UI Clone**: Faithful recreation of the ElevenLabs signup page design
